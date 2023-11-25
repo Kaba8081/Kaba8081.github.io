@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Pierwsza strona w html">
+    <meta name="author" content="Kacper Baum-Azbum">
+
+    <title>Circulum Vitae</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap">
+</head>
+<body>
+    <nav class="paddingX flexStart">
+        <div id="particles-js"></div>
+        <div class="boxWidth">
+            <div id="big-navbar">
+                <h1 id="title">Kacper Baum-Azbum</h1>
+                <ul id="nav-links">
+                    <li>O mnie</li>
+                    <li>Projekty</li>
+                    <li>Kontakt</li>
+                </ul>
+            </div>
+            <div id="mobile-navbar">
+                <h6 id="title">Kacper Baum-Azbum</h6>
+                <img id="nav-menu-img" src="img/menu.svg" onclick=mobileNavMenu()>
+                <div id="small-navbar">
+                    <ul id="mobile-nav-links">
+                        <li>O mnie</li>
+                        <li>Projekty</li>
+                        <li id="last">Kontakty</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="paddingX paddingY flexStart">
+        <div class="boxWidth" id="short-description">
+            <div id="photo">
+                <img src="img/profesionalne zdjecie.png"/>
+                <div id="blue-gradient"></div>
+                <div id="white-gradient"></div>
+            </div>
+            <h2>Cześć! Jestem Kacper,</h2>
+            <p>Studiuję informatykę na <a id="ubb-link" href="https://ubb.edu.pl/" target="_blank">Uniwersytecie w Bielsku-Białej</a>, a w wolnym czasie programuję, maluję lub rozwijam swoje pasje i zainteresowania.</p>
+            <div id="icons">
+                <a href="#contact"><img src="img/discord.svg"/></a>
+                <a href="https://github.com/Kaba8081" target="_blank"><img src="img/github.svg"/></a>
+                <a href="https://serwiskacperek.me/SerwisKacperek" target="_blank"><img src="img/globe.svg"/></a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
